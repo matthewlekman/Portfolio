@@ -15,48 +15,25 @@ name                     : &name "Matthew Tomas Lekman"
 description              : &description "personal description"
 url                      : https://matthewlekman.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "/Portfolio" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "/matthewlekman/Portfolio"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_0802.jpeg"
+  avatar           : "Avatar.png"
   name             : "Matthew Lekman"
   pronouns         : # example: "he/him"  
-  bio              : "Aspiring software engineer"
+  bio              : "Aspiring Software Engineer"
   location         : "Nottingham"
   employer         : "Nottingham Trent University"
   uri              : # URL
   email            : "matthew@lekman.com"
+  linkedin         : "matthew-lekman-095226309"
 
   # Repositories and software development
   github           : "matthewlekman"  
-
-  # Social media
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  linkedin         : # Matthew Lekman
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -199,7 +176,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  skills:
     output: true
     permalink: /:collection/:path/
   portfolio:
